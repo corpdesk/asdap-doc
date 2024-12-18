@@ -219,146 +219,133 @@
                         <div class="card-body">
                             <div class="p-lg-3">
                                 <!-- Title -->
-                                <h5 class="mt-0 mb-2">
-                                    <i class="fas fa-cogs me-2"></i> Data Manager
+                                <h5 class="mt-0 mb-4">
+                                    <i class="fas fa-user-cog me-2"></i> User Settings
                                 </h5>
                                 <p>
-                                    The ASDAP Data Manager is a step-by-step wizard designed to help you create, manage,
-                                    and control cooperative data efficiently. Follow the guide below to make the best
-                                    use of this tool.
-                                </p>
-                                <p>
-                                    This facility is for creating new data. All data batches have a reference tag to them. Before creating new data you can select existing reference or create new reference.
-
-                                </p>
-                                <p>
-                                    Once the data is entered and there is need to block it or control those who can access it, a filter can be created. 
-                                    The filter can then be enabled or disabled or deleted when no longer required.
-                                </p>
-
-                                <!-- Overview Section -->
-                                <h6 class="mt-4"><i class="fas fa-info-circle me-2"></i> Overview</h6>
-                                <p>
-                                    The Data Manager consists of three main features:
+                                    User settings is divided into three key sections to help you manage your account effectively:
                                 </p>
                                 <ul>
-                                    <li><strong>Creating New Data:</strong> Associate data batches with unique
-                                        references.</li>
-                                    <li><strong>Data Filtering:</strong> Control access to data using filters.</li>
-                                    <li><strong>Data Submission:</strong> Enter statistical details about SACCOs.</li>
+                                    <li><strong>Personal Information</strong></li>
+                                    <li><strong>Notifications</strong></li>
+                                    <li><strong>Account Security</strong></li>
                                 </ul>
-
-                                <!-- Step 1 -->
-                                <h6 class="mt-4"><i class="fas fa-step-forward me-2"></i> Step 1: Select or Create a
-                                    Reference</h6>
+                    
+                                <!-- Section 1: Personal Information -->
+                                <div class="bg-light p-3 mb-5">
+                                    <h6 class="mb-3"><i class="fas fa-user-edit me-2"></i> Personal Information</h6>
+                                </div>
                                 <p>
-                                    Every data batch must be linked to a reference. You can either select an existing
-                                    reference or create a new one.
+                                    The personal information section allows you to manage the following:
                                 </p>
-                                <h6 class="mt-3">1.1 Select an Existing Reference</h6>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
+                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Change Password</strong></td>
+                                                <td>Update your current password or initiate a "Forgot Password" process.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Multi-Factor Authentication</strong></td>
+                                                <td>Enhance account security by configuring multi-factor authentication (MFA) using email, phone, or authenticator apps.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Language and Region</strong></td>
+                                                <td>Set your preferred language and region for a customized experience.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Profile Picture</strong></td>
+                                                <td>Upload or update your profile picture.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                    
+                                <!-- Section 2: Notifications -->
+                                <div class="bg-light p-3 mb-5">
+                                    <h6 class="mb-3"><i class="fas fa-bell me-2"></i> Notifications</h6>
+                                </div>
                                 <p>
-                                    Use the dropdown to choose a reference. Once selected, details of the reference will
-                                    be displayed, including:
+                                    Receive and track notifications from various system modules and features, including:
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
+                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>System Alerts</strong></td>
+                                                <td>Receive warnings and critical notifications from the system.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Admin Messages</strong></td>
+                                                <td>View important messages sent by system administrators.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Chat Messages</strong></td>
+                                                <td>Get notifications for new messages received via the chat system.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p>
+                                    The notifications list highlights:
                                 </p>
                                 <ul>
-                                    <li><strong>ID:</strong> The unique identifier for the reference.</li>
-                                    <li><strong>Name:</strong> The name of the reference.</li>
+                                    <li>Unread notifications with a flag to help you identify them.</li>
+                                    <li>Notifications requiring action, along with their current status.</li>
                                 </ul>
-                                <h6 class="mt-3">1.2 Create a New Reference</h6>
+                    
+                                <!-- Section 3: Account Security -->
+                                <div class="bg-light p-3 mb-5">
+                                    <h6 class="mb-3"><i class="fas fa-shield-alt me-2"></i> Account Security</h6>
+                                </div>
                                 <p>
-                                    If no existing reference fits, you can create a new one:
+                                    Monitor and manage your account security with the following tools:
                                 </p>
-                                <ol>
-                                    <li>Click the <strong>Create New Reference</strong> button.</li>
-                                    <li>Fill in the required fields:
-                                        <ul>
-                                            <li><strong>Name:</strong> Enter a name for the reference.</li>
-                                            <li><strong>Description:</strong> Provide a description.</li>
-                                        </ul>
-                                    </li>
-                                    <li>Click <strong>Save Reference</strong> to proceed or <strong>Cancel</strong> to
-                                        discard changes.</li>
-                                </ol>
-
-                                <!-- Step 2 -->
-                                <h6 class="mt-4"><i class="fas fa-globe me-2"></i> Step 2: Datasource Info</h6>
-                                <p>
-                                    Define the type, geographic scope, and time period for your data.
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
+                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Activity Logs</strong></td>
+                                                <td>View detailed logs of recent account activities, including login attempts and device access.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Active Devices</strong></td>
+                                                <td>Monitor devices currently logged into your account.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Session Management</strong></td>
+                                                <td>Log out or block specific devices directly from this interface to secure your account.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                    
+                                <!-- Closing Paragraph -->
+                                <p class="mt-3">
+                                    Keeping your settings up to date helps ensure your account remains secure, personalized, and efficient.
                                 </p>
-                                <h6 class="mt-3">2.1 Select Data Source Type</h6>
-                                <p>
-                                    Use the <strong>Source Type</strong> dropdown to specify the type of data (e.g.,
-                                    `Continental SACCO`, `National Apex`).
-                                </p>
-                                <h6 class="mt-3">2.2 Configure Geographic Information</h6>
-                                <p>
-                                    Based on the selected source type, you may need to specify:
-                                </p>
-                                <ul>
-                                    <li><strong>Continent:</strong> Choose a continent for `Continental SACCO`.</li>
-                                    <li><strong>Country:</strong> Select a country for `National Apex` or `Microfinance
-                                        SACCO`.</li>
-                                    <li><strong>SubRegion:</strong> Optionally select a subregion if required.</li>
-                                </ul>
-                                <h6 class="mt-3">2.3 Configure Temporal Information</h6>
-                                <p>
-                                    Choose how to specify the time period for your data:
-                                </p>
-                                <ul>
-                                    <li><strong>Year:</strong> Enter the year.</li>
-                                    <li><strong>Date Selector:</strong> Use the calendar input to select a specific
-                                        date.</li>
-                                </ul>
-
-                                <!-- Step 3 -->
-                                <h6 class="mt-4"><i class="fas fa-chart-bar me-2"></i> Step 3: Statistical Data</h6>
-                                <p>
-                                    Enter the cooperative statistics in this step. The required fields include:
-                                </p>
-                                <ul>
-                                    <li><strong>Number of SACCOs:</strong> Total SACCOs in the dataset.</li>
-                                    <li><strong>Number of Members:</strong> Total members in the SACCOs.</li>
-                                    <li><strong>Saves & Shares:</strong> Savings and shares in USD.</li>
-                                    <li><strong>Loans:</strong> Loans issued in USD.</li>
-                                    <li><strong>Assets:</strong> Total assets in USD.</li>
-                                    <li><strong>Penetration:</strong> Membership penetration percentage.</li>
-                                    <li><strong>Reserves:</strong> Reserves in USD.</li>
-                                    <li><strong>WOCCU Membership:</strong> Indicate if the SACCO is a WOCCU member.</li>
-                                </ul>
-
-                                <!-- Filter Management -->
-                                <h6 class="mt-4"><i class="fas fa-filter me-2"></i> Managing Filters</h6>
-                                <p>
-                                    Filters control access to data batches. You can create, enable, disable, or delete
-                                    filters as needed.
-                                </p>
-                                <h6 class="mt-3">Create a Filter</h6>
-                                <ol>
-                                    <li>Click the <strong>Public Filter</strong> button on Step 1.</li>
-                                    <li>Use the <strong>Filter Wizard</strong> to define access rules.</li>
-                                    <li>Submit the filter.</li>
-                                </ol>
-                                <h6 class="mt-3">Enable, Disable, or Delete Filters</h6>
-                                <p>
-                                    Manage existing filters through the <strong>Filter Wizard</strong>:
-                                </p>
-                                <ul>
-                                    <li><strong>Enable:</strong> Activate the filter to enforce rules.</li>
-                                    <li><strong>Disable:</strong> Temporarily deactivate a filter.</li>
-                                    <li><strong>Delete:</strong> Remove a filter permanently.</li>
-                                </ul>
-
-                                <!-- Best Practices -->
-                                <h6 class="mt-4"><i class="fas fa-lightbulb me-2"></i> Best Practices</h6>
-                                <ul>
-                                    <li>Ensure all data is tagged with a unique reference for easy tracking.</li>
-                                    <li>Select appropriate date granularity (Year or Date) for each dataset.</li>
-                                    <li>Use the wizard’s built-in validation to avoid errors.</li>
-                                    <li>Review and manage filters regularly for optimal data security.</li>
-                                </ul>
                             </div>
                         </div>
                     </div>
+                    
 
 
                     <!-- end card -->
