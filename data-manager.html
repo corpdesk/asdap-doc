@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <title>ASDAP | Docs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        content="ASDAP is an initiative by ACCOSCA to develop a SACCO platform for data and statistical sharing." />
+    <meta content="ASDAP is an initiative by ACCOSCA to develop a SACCO platform for data and statistical sharing." />
     <meta content="EMP Services" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -226,132 +225,138 @@
                             <div class="p-lg-3">
                                 <!-- Title -->
                                 <h5 class="mt-0 mb-4">
-                                    <i class="fas fa-user-cog me-2"></i> User Settings
+                                    <i class="fas fa-database me-2"></i> Statistics Wizard - User Manual
                                 </h5>
                                 <p>
-                                    User settings is divided into three key sections to help you manage your account effectively:
+                                    The Statistics Wizard is a step-by-step tool to create, manage, and submit
+                                    cooperative data efficiently. Follow the steps below to complete your tasks.
+                                </p>
+
+                                <!-- Step 1 -->
+                                <div class="bg-light p-3 mb-5">
+                                    <h6 class="mb-3"><i class="fas fa-step-forward me-2"></i> Step 1: Select or Create a
+                                        Reference</h6>
+                                </div>
+                                <p>
+                                    Each data batch must be linked to a reference. You can either select an existing
+                                    reference or create a new one.
+                                </p>
+                                <h6 class="mt-3">1.1 Select an Existing Reference</h6>
+                                <p>
+                                    Use the dropdown to select an existing reference. Upon selection, you can view its
+                                    details:
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th><i class="fas fa-tag me-2"></i> Field</th>
+                                                <th><i class="fas fa-info-circle me-2"></i> Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>ID</strong></td>
+                                                <td>The unique identifier for the reference.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Name</strong></td>
+                                                <td>The name of the reference.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h6 class="mt-3">1.2 Create a New Reference</h6>
+                                <p>
+                                    If no existing reference meets your needs, create a new one by providing the
+                                    following details:
+                                </p>
+                                <ol>
+                                    <li><strong>Name:</strong> Enter a name for the reference.</li>
+                                    <li><strong>Description:</strong> Provide a description for the reference.</li>
+                                    <li>Click <strong>Save Reference</strong> to proceed or <strong>Cancel</strong> to
+                                        discard changes.</li>
+                                </ol>
+
+                                <!-- Step 2 -->
+                                <div class="bg-light p-3 mb-5">
+                                    <h6 class="mb-3"><i class="fas fa-map me-2"></i> Step 2: Datasource Information</h6>
+                                </div>
+                                <p>
+                                    Specify the source type, geographic scope, and time period for your data.
+                                </p>
+                                <h6 class="mt-3">2.1 Select Data Source Type</h6>
+                                <p>
+                                    Use the dropdown to choose the source type (e.g., `Continental SACCO`, `National
+                                    Apex`).
+                                </p>
+                                <h6 class="mt-3">2.2 Configure Geographic Information</h6>
+                                <p>
+                                    Based on the selected source type, provide additional geographic details:
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th><i class="fas fa-map-marker-alt me-2"></i> Parameter</th>
+                                                <th><i class="fas fa-info-circle me-2"></i> Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Continent</strong></td>
+                                                <td>Specify the continent for `Continental SACCO` types.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Country</strong></td>
+                                                <td>Select a country for `National Apex` or `Microfinance SACCO` types.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>SubRegion</strong></td>
+                                                <td>Optionally specify a subregion if required.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h6 class="mt-3">2.3 Configure Temporal Information</h6>
+                                <p>
+                                    Specify the time period using one of the following options:
                                 </p>
                                 <ul>
-                                    <li><strong>Personal Information</strong></li>
-                                    <li><strong>Notifications</strong></li>
-                                    <li><strong>Account Security</strong></li>
+                                    <li><strong>Year:</strong> Enter a specific year.</li>
+                                    <li><strong>Date Selector:</strong> Use a calendar input to select a specific date.
+                                    </li>
                                 </ul>
-                    
-                                <!-- Section 1: Personal Information -->
+
+                                <!-- Step 3 -->
                                 <div class="bg-light p-3 mb-5">
-                                    <h6 class="mb-3"><i class="fas fa-user-edit me-2"></i> Personal Information</h6>
+                                    <h6 class="mb-3"><i class="fas fa-chart-bar me-2"></i> Step 3: Statistical Data</h6>
                                 </div>
                                 <p>
-                                    The personal information section allows you to manage the following:
-                                </p>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped align-middle">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
-                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>Change Password</strong></td>
-                                                <td>Update your current password or initiate a "Forgot Password" process.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Multi-Factor Authentication</strong></td>
-                                                <td>Enhance account security by configuring multi-factor authentication (MFA) using email, phone, or authenticator apps.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Language and Region</strong></td>
-                                                <td>Set your preferred language and region for a customized experience.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Profile Picture</strong></td>
-                                                <td>Upload or update your profile picture.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                    
-                                <!-- Section 2: Notifications -->
-                                <div class="bg-light p-3 mb-5">
-                                    <h6 class="mb-3"><i class="fas fa-bell me-2"></i> Notifications</h6>
-                                </div>
-                                <p>
-                                    Receive and track notifications from various system modules and features, including:
-                                </p>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped align-middle">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
-                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>System Alerts</strong></td>
-                                                <td>Receive warnings and critical notifications from the system.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Admin Messages</strong></td>
-                                                <td>View important messages sent by system administrators.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Chat Messages</strong></td>
-                                                <td>Get notifications for new messages received via the chat system.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <p>
-                                    The notifications list highlights:
+                                    Provide detailed statistical data for the cooperative, including:
                                 </p>
                                 <ul>
-                                    <li>Unread notifications with a flag to help you identify them.</li>
-                                    <li>Notifications requiring action, along with their current status.</li>
+                                    <li><strong>Number of SACCOs:</strong> Total SACCOs in the dataset.</li>
+                                    <li><strong>Number of Members:</strong> Total members in the SACCOs.</li>
+                                    <li><strong>Saves & Shares:</strong> Savings and shares in USD.</li>
+                                    <li><strong>Loans:</strong> Loans issued in USD.</li>
+                                    <li><strong>Assets:</strong> Total assets in USD.</li>
+                                    <li><strong>Penetration:</strong> Membership penetration percentage.</li>
+                                    <li><strong>Reserves:</strong> Reserves in USD.</li>
+                                    <li><strong>WOCCU Membership:</strong> Indicate if the SACCO is a WOCCU member.</li>
                                 </ul>
-                    
-                                <!-- Section 3: Account Security -->
-                                <div class="bg-light p-3 mb-5">
-                                    <h6 class="mb-3"><i class="fas fa-shield-alt me-2"></i> Account Security</h6>
-                                </div>
-                                <p>
-                                    Monitor and manage your account security with the following tools:
-                                </p>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped align-middle">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th><i class="fas fa-sliders-h me-2"></i> Control</th>
-                                                <th><i class="fas fa-info-circle me-2"></i> Usage</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>Activity Logs</strong></td>
-                                                <td>View detailed logs of recent account activities, including login attempts and device access.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Active Devices</strong></td>
-                                                <td>Monitor devices currently logged into your account.</td>
-                                            </tr>
-                                            <tr>
-                                                <td><strong>Session Management</strong></td>
-                                                <td>Log out or block specific devices directly from this interface to secure your account.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                    
-                                <!-- Closing Paragraph -->
+
+                                <!-- Closing Section -->
                                 <p class="mt-3">
-                                    Keeping your settings up to date helps ensure your account remains secure, personalized, and efficient.
+                                    Use the wizard's built-in validation tools to ensure data accuracy. Submit the final
+                                    data for processing at the end of the wizard.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    
+
+
 
 
                     <!-- end card -->
@@ -369,7 +374,8 @@
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
                                 Crafted with <i class="mdi mdi-heart text-danger"></i> by <a
-                                    href="https://empservices.co.ke/" target="_blank" class="text-muted">EMP Services Ltd</a>
+                                    href="https://empservices.co.ke/" target="_blank" class="text-muted">EMP Services
+                                    Ltd</a>
                             </div>
                         </div>
                     </div>
